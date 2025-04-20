@@ -1,0 +1,126 @@
+#navbar{
+   
+    width: 100vw;
+    height: 80px;
+    background-color: #001D21;
+    display: flex;
+    justify-content: center;
+    position:fixed;
+  
+    top: 0;
+   
+    z-index: 999; 
+}
+
+.navbar-cont{
+    width: 75%;
+   
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-cont-1 h2{
+    font-family: "Space Grotesk", sans-serif;
+    color: white;
+    font-weight: 200;
+    letter-spacing: .1rem;
+    font-style: normal;
+}
+
+
+.navbar-cont-1{
+    cursor: pointer;
+}
+
+
+.navbar-cont-2{
+    width: 450px;
+  
+    height: 50px;
+    border-radius: 50px;
+    background-color: #012a30;
+}
+
+
+
+
+
+
+.navbar-cont-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+  }
+  
+.navbar-cont-2-child-1 {
+    position: relative;
+  }
+  
+.dropdown-box {
+    position: absolute;
+    top: 55px; 
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 200px;
+   
+    z-index: 100;
+    animation: ease-in-out 0.3s;
+    border-radius: 3px;
+}
+
+
+.navbar-cont-2-buttons{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+   
+}
+  
+
+
+.dropdown-box > ul{
+    list-style: none;
+}
+
+
+.navbar-cont-3 button{
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+}
+
+.navbar-cont-3 > button:nth-child(2){
+    background-color: #BDBBFF;
+    margin-left: 10px;
+}
+
+.navbar-cont-3 > button:nth-child(2):hover{
+    background-color: #ffffff;
+    
+}
+
+.navbar-cont-3 button:nth-child(1){
+   color: white;
+   background-color: transparent;
+}
+
+
+
+
+.navbar-cont-3 button{
+    cursor: pointer;
+}
+
+
+
+
+
